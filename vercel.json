@@ -1,0 +1,22 @@
+{
+  "buildCommand": "node scripts/inject-config.js",
+  "outputDirectory": ".",
+  "framework": null,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/LoginPage", "destination": "/LoginPage/index.html" },
+    { "source": "/LoginPage/", "destination": "/LoginPage/index.html" },
+    { "source": "/pages/SignUpPage", "destination": "/pages/SignUpPage/index.html" },
+    { "source": "/pages/SignUpPage/", "destination": "/pages/SignUpPage/index.html" },
+    { "source": "/pages/Dashboard", "destination": "/pages/Dashboard/index.html" },
+    { "source": "/pages/Dashboard/", "destination": "/pages/Dashboard/index.html" },
+    { "source": "/pages/UploadPage", "destination": "/pages/UploadPage/index.html" },
+    { "source": "/pages/UploadPage/", "destination": "/pages/UploadPage/index.html" },
+    { "source": "/pages/ReviewerPage", "destination": "/pages/ReviewerPage/index.html" },
+    { "source": "/pages/ReviewerPage/", "destination": "/pages/ReviewerPage/index.html" },
+    { "source": "/pages/GamesHub", "destination": "/pages/GamesHub/index.html" },
+    { "source": "/pages/GamesHub/", "destination": "/pages/GamesHub/index.html" },
+    { "source": "/pages/GameResults", "destination": "/pages/GameResults/index.html" },
+    { "source": "/pages/GameResults/", "destination": "/pages/GameResults/index.html" }
+  ]
+}
